@@ -1,0 +1,77 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url('img/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contenedor{
+    margin-top: 8%;
+    margin-left: 35%;
+    width: 500px;
+    background-color: rgb(238, 234, 234);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.btn{
+    background-color: rgb(124, 118, 118)  !important;
+    border: 0px;
+    height: 40px;
+    width: 40%;
+    align-content: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 20px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.enlace{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.col-sm1{
+    box-shadow: 5px 5px 5px 5px rgba(90, 87, 87, 0.6);
+    border-radius: 20px;
+    background-color: rgb(238, 234, 234);
+}
+
+.form-group{
+    width: 470px;
+    margin-left: 5%;
+    background-color: rgb(238, 234, 234);
+}
+
+.form-control{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.5px solid rgba(90, 87, 87, 0.6);
+    border-radius: 0px;
+    width: 450px;
+    height: 45px;
+    font-size: 20px;
+    background-color: rgb(238, 234, 234);
+}
+
+.form-control:focus {
+    background-color: rgb(238, 234, 234);
+}
+
+.texto-input{
+    font-size: 20px;
+}
